@@ -1,0 +1,189 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610382430731' stop='1610382445056'>
+    <name>User login</name>
+    <title>User login</title>
+    <test-cases>
+        <test-case start='1610382433962' status='passed' stop='1610382439182'>
+            <name>login with valid credentials @pos</name>
+            <title>login with valid credentials @pos</title>
+            <labels>
+                <label name='tag' value='@pos'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1610382433973' status='passed' stop='1610382435629'>
+                    <name>Given I am on the login page </name>
+                    <title>Given I am on the login page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382433973' status='passed' stop='1610382435608'>
+                            <name>I am on page "https://www.saucedemo.com/index.html"</name>
+                            <title>I am on page "https://www.saucedemo.com/index.html"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610382435608' status='passed' stop='1610382435624'>
+                            <name>I see element ".login_logo"</name>
+                            <title>I see element ".login_logo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610382435624' status='passed' stop='1610382435629'>
+                            <name>I see in title "Swag Labs"</name>
+                            <title>I see in title "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382435629' status='passed' stop='1610382435989'>
+                    <name>When I type "standard_user" in the email field </name>
+                    <title>When I type "standard_user" in the email field </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382435629' status='passed' stop='1610382435989'>
+                            <name>I fill field "Username", "standard_user"</name>
+                            <title>I fill field "Username", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382435989' status='passed' stop='1610382436338'>
+                    <name>And I type "secret_sauce" in the password field </name>
+                    <title>And I type "secret_sauce" in the password field </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382435989' status='passed' stop='1610382436338'>
+                            <name>I fill field "Password", "secret_sauce"</name>
+                            <title>I fill field "Password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382436338' status='passed' stop='1610382436877'>
+                    <name>And I click on the Login button </name>
+                    <title>And I click on the Login button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382436338' status='passed' stop='1610382436877'>
+                            <name>I click "input#login-button"</name>
+                            <title>I click "input#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382436877' status='passed' stop='1610382439181'>
+                    <name>Then I see the PRODUCT label on the home page </name>
+                    <title>Then I see the PRODUCT label on the home page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382436877' status='passed' stop='1610382439181'>
+                            <name>I see element ".product_label"</name>
+                            <title>I see element ".product_label"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610382439202' status='failed' stop='1610382444947'>
+            <name>login with invalid credentials @neg</name>
+            <title>login with invalid credentials @neg</title>
+            <labels>
+                <label name='tag' value='@neg'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1610382439205' status='passed' stop='1610382439454'>
+                    <name>Given I am on the login page </name>
+                    <title>Given I am on the login page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382439205' status='passed' stop='1610382439431'>
+                            <name>I am on page "https://www.saucedemo.com/index.html"</name>
+                            <title>I am on page "https://www.saucedemo.com/index.html"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610382439431' status='passed' stop='1610382439452'>
+                            <name>I see element ".login_logo"</name>
+                            <title>I see element ".login_logo"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610382439452' status='passed' stop='1610382439454'>
+                            <name>I see in title "Swag Labs"</name>
+                            <title>I see in title "Swag Labs"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382439454' status='passed' stop='1610382439807'>
+                    <name>When I type "standard_user" in the email field </name>
+                    <title>When I type "standard_user" in the email field </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382439454' status='passed' stop='1610382439807'>
+                            <name>I fill field "Username", "standard_user"</name>
+                            <title>I fill field "Username", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382439807' status='passed' stop='1610382439995'>
+                    <name>And I type "0000" in the password field </name>
+                    <title>And I type "0000" in the password field </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382439807' status='passed' stop='1610382439995'>
+                            <name>I fill field "Password", "0000"</name>
+                            <title>I fill field "Password", "0000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382439995' status='passed' stop='1610382440186'>
+                    <name>And I click on the Login button </name>
+                    <title>And I click on the Login button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382439995' status='passed' stop='1610382440185'>
+                            <name>I click "input#login-button"</name>
+                            <title>I click "input#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610382440186' status='failed' stop='1610382444946'>
+                    <name>Then I see an error message </name>
+                    <title>Then I see an error message </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610382440186' status='failed' stop='1610382444946'>
+                            <name>I see "Epic sadfaces: Username and password do not match any user in this service", "h3"</name>
+                            <title>I see "Epic sadfaces: Username and password do not match any user in this service", "h3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='81755f49-9d3b-4669-ac85-d6198d19d904-attachment.png' type='image/png' size='80730'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

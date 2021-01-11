@@ -1,0 +1,18 @@
+{
+  "name": "codeceptjs-playwright-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codeceptjs": "codeceptjs run --steps",
+    "codeceptjs:features": "codeceptjs run --steps --features --plugins allure",
+    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps --features --plugins allure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.0.2",
+    "playwright": "^1.7.0"
+  }
+}
