@@ -1,9 +1,7 @@
 # compiled output
 /dist
 /node_modules
-/mochawesome-report
-cypress/videos
-cypress/screenshots
+/output
 
 # Logs
 logs

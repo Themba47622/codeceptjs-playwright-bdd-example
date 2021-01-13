@@ -20,7 +20,7 @@ exports.config = {
   },
   plugins: {
     allure: {
-      "enabled": true
+      enabled:true
     },
     screenshotOnFail: {
       enabled: true

@@ -18,6 +18,11 @@ $ npm run codeceptjs
 $ npm run codeceptjs:features 
 ```
 
+## Launch CodeceptUI
+```bash
+$ npm run codeceptjs:ui 
+```
+
 ## Launch Allure server & view report
 ```bash
 $ allure serve output 

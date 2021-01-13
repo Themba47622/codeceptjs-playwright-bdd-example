@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "codeceptjs": "codeceptjs run --steps",
+    "codeceptjs": "codeceptjs run --steps --plugins allure",
     "codeceptjs:features": "codeceptjs run --steps --features --plugins allure",
-    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps --features --plugins allure"
+    "codeceptjs:ui": "codecept-ui --app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@codeceptjs/ui": "^0.4.3",
     "codeceptjs": "^3.0.2",
     "playwright": "^1.7.0"
   }
